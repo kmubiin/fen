@@ -2,13 +2,13 @@
 
 Make a symbolic link to this readme on localhost.
 
-  ln -s readme.txt readme.md
+    ln -s readme.txt readme.md
 
 Make a symbolic link in another sub directory.
 
-  mkdir dup/ &&
-  cd dup/ &&
-  ln -s ../readme.txt readme.md
+    mkdir dup/ &&
+    cd dup/ &&
+    ln -s ../readme.txt readme.md
 
 If this were seen **formatted** without extra characters,
 then symbolic link with some markup file extension works
