@@ -7,8 +7,7 @@ Make a symbolic link in another sub directory.
     cd try/ &&
     ln -s ../plain.txt readme.rst
 
-This will enable [another link](alt/readme.rst) to this file
-itself, and may be shown via [another relative link](alt/).
+(P.S.: This seems to work!)
 
 Two differences for this test:
 
