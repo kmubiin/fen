@@ -10,6 +10,10 @@ Make a symbolic link in another sub directory.
     cd dup/ &&
     ln -s ../readme.txt readme.md
 
+The latter will enable [another link](dup/readme.md)
+to this readme itself, and the same content will be shown
+via [another relative link](dup/).
+
 If this were seen **formatted** without extra characters,
 then symbolic link with some markup file extension works
 like actual file!
