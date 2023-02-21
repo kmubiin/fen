@@ -20,3 +20,8 @@ like actual file!
 
 Although, this seems limited to readme on web repository and
 *might not* work with other files. Is it? Self-answer.
+
+Hint: Path to the symbolic link is either ``sub/readme.md``
+or ``sub/dup/readme.md``
+
+Return to [higher directory](..)

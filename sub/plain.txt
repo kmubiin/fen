@@ -23,3 +23,8 @@ like actual file!
 Yet, this seems limited to "readme per directory" basis on
 web repository and *might not* work with other files. Is it?
 Self-answer.
+
+.. HINT::
+   Path to the symbolic link is ``sub/try/readme.rst``
+
+Return to `higher directory <..>`_
