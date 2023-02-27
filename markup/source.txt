@@ -1,0 +1,12 @@
+markup/source.txt
+====================
+
+A single text file to experiment markup languages.
+Markups are selective and chosen for most compatible or
+similar use cases. Subject to personal selection.
+
+[Markdown](md)
+
+`reStructuredText <rst>`_
+
+link:adoc[AsciiDoc]
