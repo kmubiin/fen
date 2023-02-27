@@ -15,3 +15,27 @@ from the `markup directory <..>`_
 
 . link:readme.adoc[AsciiDoc]
 from the link:..[markup directory]
+
+Simple text
+--------------------
+
+This is a paragraph.
+
+Paragraphs line up on the left, and are normally separated
+by blank lines.
+
+Paragraphs indented by some spaces may be:
+
+ literal paragraphs (AsciiDoc)
+ indented by at least one space;
+ spaces and newlines are preserved;
+ or,
+
+    literal blocks or code blocks (Markdown)
+    indented by at least four spaces;
+    newlines may not be preserved;
+    or,
+
+    block quotes (reStructuredText)
+
+        and each block may follow another block.
