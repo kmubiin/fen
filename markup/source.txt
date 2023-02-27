@@ -5,8 +5,10 @@ A single text file to experiment markup languages.
 Markups are selective and chosen for most compatible or
 similar use cases. Subject to personal selection.
 
-[Markdown](md)
+This file is shown by one of these symbolic links:
 
-`reStructuredText <rst>`_
+[Markdown](readme.md)
 
-link:adoc[AsciiDoc]
+`reStructuredText <readme.rst>`_
+
+link:readme.adoc[AsciiDoc]
