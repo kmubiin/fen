@@ -16,6 +16,7 @@ from the `markup directory <..>`_
 ? link:readme.adoc[AsciiDoc]
 from the link:..[markup directory]
 
+--------------------
 Title text
 --------------------
 
@@ -25,6 +26,7 @@ Markdown, AsciiDoc
 Setext heading (underline):
 Markdown, reStructuredText
 
+--------------------
 Simple text
 --------------------
 
