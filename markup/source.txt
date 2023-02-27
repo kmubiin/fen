@@ -7,13 +7,13 @@ similar use cases. Subject to personal selection.
 
 This file is shown by one of these symbolic links:
 
-. [Markdown](readme.md)
+? [Markdown](readme.md)
 from the [markup directory](..)
 
-. `reStructuredText <readme.rst>`_
+? `reStructuredText <readme.rst>`_
 from the `markup directory <..>`_
 
-. link:readme.adoc[AsciiDoc]
+? link:readme.adoc[AsciiDoc]
 from the link:..[markup directory]
 
 Simple text
