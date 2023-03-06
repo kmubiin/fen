@@ -2,8 +2,8 @@ markup/source.txt
 ====================
 
 A single text file to experiment markup languages.
-Markups are selective and chosen for most compatible or
-similar use cases. Subject to personal selection.
+Markups are selective and chosen by either compatible or
+similar use cases. Subject to personal preference.
 
 This file is shown by one of these symbolic links:
 
@@ -50,3 +50,19 @@ Paragraphs indented by some spaces may be:
     block quotes (reStructuredText)
 
         and each block may follow another block.
+
+--------------------
+Marker text
+--------------------
+
+A thematic break or transition marker is made of horizontal
+lines of repeated punctuation characters. That lines up on
+the left, and if properly used, found between paragraphs.
+
+``---``
+
+---
+
+``----``
+
+----
