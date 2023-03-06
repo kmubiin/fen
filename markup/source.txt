@@ -59,17 +59,20 @@ A thematic break or transition marker is made of horizontal
 lines of repeated punctuation characters. That lines up on
 the left, and if properly used, found between paragraphs.
 
-``---``
+``---`` (Markdown, AsciiDoc)
 
 ---
 
-``----``
+``----`` (reStructuredText; delimited block in AsciiDoc)
 
-``'''``
+Repeated punctuation often use hyphen or minus, but some
+markup languages may allow or restrict other characters.
+
+``'''`` (AsciiDoc)
 
 '''
 
-``''''``
+``''''`` (reStructuredText)
 
 ''''
 
