@@ -76,9 +76,7 @@ markup languages may allow or restrict other characters.
 
 ''''
 
-``___`` (Markdown)
-
-___
+``___`` (Markdown; unexplained result in AsciiDoc)
 
 ``____`` (reStructuredText; block quotes in AsciiDoc)
 
