@@ -80,9 +80,7 @@ markup languages may allow or restrict other characters.
 
 ___
 
-``____`` (reStructuredText)
-
-____
+``____`` (reStructuredText; block quotes in AsciiDoc)
 
 ``***`` (Markdown; invalid in reStructuredText)
 
