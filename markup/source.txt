@@ -76,4 +76,18 @@ markup languages may allow or restrict other characters.
 
 ''''
 
+``___`` (Markdown)
+
+___
+
+``____`` (reStructuredText)
+
+____
+
+``***`` (Markdown; invalid in reStructuredText)
+
+``****`` (reStructuredText)
+
+****
+
 [TESTING IN PROGRESS]
