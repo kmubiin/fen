@@ -76,14 +76,19 @@ markup languages may allow or restrict other characters.
 
 ''''
 
-``___`` (Markdown; unexplained result in AsciiDoc)
+``___`` (Markdown)
 
 ``____`` (reStructuredText; block quotes in AsciiDoc)
 
 ``***`` (Markdown; invalid in reStructuredText)
 
-``****`` (reStructuredText)
+``****`` (reStructuredText; sidebar block in AsciiDoc)
 
-****
+Some unwanted results in AsciiDoc: both literal instances
+of spacing underscore and asterisk have missing characters.
+
+AsciiDoc seems to allow unconstrained inline formatting,
+therefore such repeated characters without any text
+in-between may be shown as such.
 
 [TESTING IN PROGRESS]
