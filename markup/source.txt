@@ -65,8 +65,6 @@ the left, and if properly used, found between paragraphs.
 
 ``----``
 
-----
-
 ``'''``
 
 '''
