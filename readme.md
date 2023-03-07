@@ -19,3 +19,19 @@ another type of wetland
   minimum configurations to try GitHub Actions
 - [off directory](off) with readme was created as
   dependency to limit workflow without deletion
+
+## Anything else
+
+Basic requirements to work with the contents:
+
+- a web repository
+- any markup viewer/editor (optional)
+
+**MUST KNOW**
+The "pretty" markup preview is a built-in feature of the
+web repository i.e. GitHub. Otherwise, run a self-hosted
+repository or use any markup editor to preview contents.
+
+Licensing was never decided for this project, but a
+simple attribution would be good enough for personal
+and educational use.
