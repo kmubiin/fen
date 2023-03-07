@@ -28,7 +28,8 @@ jobs:
           echo $PATH > output.log  # save paths to output file
 
       # actions/upload-artifact: required to upload output file, as per GitHub Docs
-      # name fields seems optional?
+      # name fields seems required under with
       - uses: actions/upload-artifact@v3
         with:
+          name: output-log-file
           path: output.log  # file prepared in previous step
