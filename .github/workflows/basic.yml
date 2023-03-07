@@ -1,10 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 # from suggested template "CI" with a single job "build"
+# see: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+
 name: basic
 
 on:
-  push:
-    branches: [ "main" ]  # do job when push commits to these branches only
+  push:  # do job when...
+    branches: [ "main" ]  # commits to these branches only
+    paths: [ "docs/**" ]  # commits to these folders only
 #  pull_request:
 #    branches: [ "main" ]
 
@@ -25,11 +28,14 @@ jobs:
       - name: Run a multi-line script
         shell: bash
         run: |
-          echo $PATH > output.log  # save paths to output file
+          echo $PATH  # display paths
+#          echo $PATH > output.log  # save paths to output file (for upload-artifact)
 
-      # actions/upload-artifact: required to upload output file, as per GitHub Docs
-      # name fields seems required under with
-      - uses: actions/upload-artifact@v3
-        with:
-          name: output-log-file
-          path: output.log  # file prepared in previous step
+#      # actions/upload-artifact: required to upload output file, as per GitHub Docs
+#      # with.name seems optional, otherwise file is saved as "artifact.zip"
+#      # under your repository name, Actions tab, click any workflow to see summary,
+#      # then under Artifacts, click the artifact name to download
+#      - uses: actions/upload-artifact@v3
+#        with:
+#          name: artifact    # default: artifact
+#          path: output.log  # this file should be prepared in previous step
