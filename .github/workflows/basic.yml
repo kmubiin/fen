@@ -7,7 +7,7 @@ name: basic
 on:
   push:  # do job when...
     branches: [ "main" ]  # commits to these branches only
-    paths: [ "docs/**" ]  # commits to these folders only
+    paths: [ "off/**" ]   # commits to these folders only
 #  pull_request:
 #    branches: [ "main" ]
 
