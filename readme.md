@@ -1,6 +1,10 @@
 # fen
 another type of wetland
 
+## Now trying (impromptu)
+
+- markup/source.txt to experiment markup languages
+
 ## Test and document
 
 - readme.md has "pretty" markup viewing on the web
