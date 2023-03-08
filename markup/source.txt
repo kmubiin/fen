@@ -20,11 +20,13 @@ from the link:..[markup directory]
 Title text
 --------------------
 
-ATX heading (prefix with/without matching pair):
-Markdown, AsciiDoc
+ATX heading: Title text uses prefix with/without matching
+pair, of ``#`` (Markdown, AsciiDoc) or ``=`` (AsciiDoc).
 
-Setext heading (underline):
-Markdown, reStructuredText
+Setext heading: Title text uses underline with/without
+overline, of ``=`` and ``-`` (Markdown, reStructuredText),
+or any punctuation characters (reStructuredText), which
+corresponds to the title level and order.
 
 --------------------
 Simple text
