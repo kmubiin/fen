@@ -108,4 +108,34 @@ Inline text
 
 ? ``inline literal``
 
+Emphasis, which may be bold or italic, is made of asterisk
+and underscore characters. That may be valid, with or
+without spaces between the characters and free text, for
+some markup languages.
+
+\*emphasis*
+
+? *emphasis*
+
+\**emphasis\*\* and more\*\*emphasis\*\*
+
+? **emphasis** and more**emphasis**
+
+Emphasis paired by one character is usually italic, and
+paired by two characters is usually bold. Except, AsciiDoc
+specifies asterisk for bold and underscore for italic, and
+disregard the character count.
+
+\_emphasis\_ (Markdown, AsciiDoc)
+
+? _emphasis_
+
+\__emphasis\_\_ and more\__emphasis\_\_ (AsciiDoc)
+
+? __emphasis__ and more__emphasis__
+
+Inline text that uses underscore character has different
+interpretations: italic in Markdown and AsciiDoc; and
+reference, including hyperlink, in reStructuredText.
+
 [TESTING IN PROGRESS]
