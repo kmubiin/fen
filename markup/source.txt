@@ -91,11 +91,9 @@ reStructuredText needs four or more; therefore, the fours
 
 ``****`` (reStructuredText; sidebar block in AsciiDoc)
 
-Some unwanted results in AsciiDoc: both literal instances
-of spacing underscore and asterisk have missing characters.
-
-AsciiDoc seems to allow unconstrained inline formatting,
-therefore such repeated characters without any text
-in-between may be shown as such.
+Here, some unwanted results in AsciiDoc: some literal
+characters are missing. AsciiDoc allows unconstrained
+inline formatting, therefore such repeated characters
+without any text in-between may appear so.
 
 [TESTING IN PROGRESS]
