@@ -78,6 +78,11 @@ markup languages may allow or restrict other characters.
 
 ''''
 
+Either three or four characters are the minimum to draw
+the marker text. AsciiDoc needs three or more, whilst
+reStructuredText needs four or more; therefore, the fours
+``''''`` would be valid for both markups.
+
 ``___`` (Markdown)
 
 ``____`` (reStructuredText; block quotes in AsciiDoc)
