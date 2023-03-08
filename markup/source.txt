@@ -96,4 +96,16 @@ characters are missing. AsciiDoc allows unconstrained
 inline formatting, therefore such repeated characters
 without any text in-between may appear so.
 
+--------------------
+Inline text
+--------------------
+
+\`interpreted text` (inline literal in Markdown)
+
+? `interpreted text`
+
+\`\`inline literal\`\` (reStructuredText, AsciiDoc)
+
+? ``inline literal``
+
 [TESTING IN PROGRESS]
