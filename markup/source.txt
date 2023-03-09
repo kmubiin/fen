@@ -117,7 +117,7 @@ some markup languages.
 
 ? *emphasis*
 
-\**emphasis\*\* and more\*\*emphasis\*\*
+\*\*emphasis\*\* and more\*\*emphasis\*\*
 
 ? **emphasis** and more**emphasis**
 
@@ -130,7 +130,7 @@ disregard the character count.
 
 ? _emphasis_
 
-\__emphasis\_\_ and more\__emphasis\_\_ (AsciiDoc)
+\_\_emphasis\_\_ and more\_\_emphasis\_\_ (AsciiDoc)
 
 ? __emphasis__ and more__emphasis__
 
@@ -153,6 +153,11 @@ reference, including hyperlink, in reStructuredText.
 \[.underline]\#text# and \[.line-through]\#text# (AsciiDoc)
 
 ? [.underline]#text# and [.line-through]#text#
+
+Again, some unwanted results in AsciiDoc: some literal
+characters are shown together with the escape characters.
+AsciiDoc seems to handle improperly of such repeated
+punctuation characters, regardless of literal or escaped.
 
 --------------------
 Itemize text
