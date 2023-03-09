@@ -138,4 +138,23 @@ Inline text that uses underscore character has different
 interpretations: italic in Markdown and AsciiDoc; and
 reference, including hyperlink, in reStructuredText.
 
+\^super^script (AsciiDoc)
+
+? ^super^script
+
+\~sub\~script or \~line through\~ (AsciiDoc; else Markdown)
+
+? ~sub~script or ~line through~
+
+\#highlight text# and more\##highlight\#\# (AsciiDoc)
+
+? #highlight text# and more##highlight##
+
+\[.underline]\#text# and \[.line-through]\#text# (AsciiDoc)
+
+? [.underline]#text# and [.line-through]#text#
+
+Inline text with spaces in-between may be interpreted as
+valid or invalid in some markup languages.
+
 [TESTING IN PROGRESS]
