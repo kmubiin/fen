@@ -157,4 +157,35 @@ reference, including hyperlink, in reStructuredText.
 Inline text with spaces in-between may be interpreted as
 valid or invalid in some markup languages.
 
+--------------------
+Itemize text
+--------------------
+
+A list of text is made of one or more punctuation characters
+and followed by free text. That lines up on the left, and
+each list is separated by a blank line (reStructuredText),
+or the different character, of ``*``, ``-``, or ``+``.
+
+* Item one asterisk
+* Item two asterisk
+
+The list of text can be ordered, normally by adding a
+numeric character before a delimiter of ``.`` or ``)``
+and followed by free text similarly.
+
+1. Item one period
+2. Item two period
+
+#. Hash item (auto-enumerated in reStructuredText)
+
+The delimiter ``.`` itself is enough to make an ordered
+list in AsciiDoc.
+
+. Level one of ordered list
+.. Level two of ordered list
+... Level three of ordered list
+.... Level four of ordered list
+..... Level five of ordered list (nested max in AsciiDoc)
+. Level one of ordered list, number two
+
 [TESTING IN PROGRESS]
