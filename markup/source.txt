@@ -154,9 +154,6 @@ reference, including hyperlink, in reStructuredText.
 
 ? [.underline]#text# and [.line-through]#text#
 
-Inline text with spaces in-between may be interpreted as
-valid or invalid in some markup languages.
-
 --------------------
 Itemize text
 --------------------
