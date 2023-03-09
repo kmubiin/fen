@@ -175,15 +175,15 @@ and followed by free text similarly.
 
 #. Item hash period (auto-enumerated in reStructuredText)
 
-The delimiter itself is enough to make an unordered list
-of ``*``, or an ordered list of ``.`` in AsciiDoc.
+The delimiter ``*`` or ``.`` itself, each one or more, can
+make an unordered list or an ordered list in AsciiDoc.
 
 . Item level one period
 .. Item level two periods
 ... Item level three periods
 .... Item level four periods
 ..... Item level five periods (nested max in AsciiDoc)
-. Item level one periods, number two
+. Item level one period, number two
 
 Both ordered and unordered lists may be combined to make a
 nested list in some markup languages.
