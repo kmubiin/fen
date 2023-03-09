@@ -188,4 +188,20 @@ list in AsciiDoc.
 ..... Level five of ordered list (nested max in AsciiDoc)
 . Level one of ordered list, number two
 
+Both ordered and unordered lists may be combined to make a
+nested list in some markup languages.
+
+1) Item one right bracket
+   * Nested asterisk item one
+   * Nested asterisk item two
+2) Item two right bracket
+
+Unordered list can be made into a checklist by adding a
+pair of square brackets, and insert a check character ``x``
+or leave a blank between the brackets.
+
+- [x] checked by lowercase x (or asterisk in AsciiDoc)
+- [ ] not checked
+- normal list item
+
 [TESTING IN PROGRESS]
