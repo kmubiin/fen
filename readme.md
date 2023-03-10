@@ -25,7 +25,8 @@ another type of wetland
 Basic requirements to work with the contents:
 
 - a web repository
-- any markup viewer/editor (optional)
+- a web browser
+- any markup tool or browser extension (optional)
 
 **MUST KNOW**
 The "pretty" markup preview is a built-in feature of the
