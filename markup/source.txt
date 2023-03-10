@@ -5,6 +5,10 @@ A single text file to experiment markup languages.
 Markups are selective and chosen by either compatible or
 similar use cases. Subject to personal preference.
 
+**Discrepancy**: Markdown has no single "correct" rendering
+for reference. This text file may preview differently,
+depending on which implementation of Markdown is being used.
+
 This file is shown by one of these symbolic links:
 
 ? [Markdown](readme.md)
