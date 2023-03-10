@@ -3,7 +3,8 @@ another type of wetland
 
 ## Now trying (impromptu)
 
-- markup/source.txt to experiment markup languages
+- [markup/source.txt](markup) to test markup languages,
+  mainly Markdown, reStructuredText, and AsciiDoc
 
 ## Test and document
 
