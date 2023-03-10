@@ -130,7 +130,8 @@ disregard the character count.
 
 ? _emphasis_
 
-\_\_emphasis\_\_ and more\_\_emphasis\_\_ (AsciiDoc)
+\_\_emphasis\_\_ and more\_\_emphasis\_\_ (Markdown;
+else AsciiDoc)
 
 ? __emphasis__ and more__emphasis__
 
@@ -202,8 +203,8 @@ Unordered list can be made into a checklist by adding a
 pair of square brackets, and insert a check character ``x``
 or leave a blank between the brackets.
 
-- [x] Item checked by lowercase x (or asterisk in AsciiDoc)
-- [ ] Item not checked
-- Item without square brackets
+* [x] Item checked by lowercase x (or asterisk in AsciiDoc)
+* [ ] Item not checked
+* Item without square brackets
 
 [TESTING IN PROGRESS]
