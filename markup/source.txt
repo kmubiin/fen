@@ -179,9 +179,9 @@ and followed by free text similarly.
 1. Item one period
 2. Item two period
 
-The numeric character before the delimiter may be replaced
-by a number sign or hash, which will be auto-enumerated in
-reStructuredText and some markup languages.
+The number sign or hash before the delimiter will be
+auto-enumerated in reStructuredText. Self-numbering and
+offset numbering are both valid in some markup languages.
 
 3. Item three period
 4. Item four period
