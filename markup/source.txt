@@ -132,12 +132,8 @@ disregard the character count.
 
 \_emphasis\_ (Markdown, AsciiDoc)
 
-? _emphasis_
-
 \_\_emphasis\_\_ and more\_\_emphasis\_\_ (Markdown;
 else AsciiDoc)
-
-? __emphasis__ and more__emphasis__
 
 Inline text that uses underscore character has different
 interpretations: italic in Markdown and AsciiDoc; and
