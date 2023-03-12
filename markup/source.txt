@@ -179,7 +179,13 @@ and followed by free text similarly.
 1. Item one period
 2. Item two period
 
-#. Item hash period (auto-enumerated in reStructuredText)
+The numeric character before the delimiter may be replaced
+by a number sign or hash, which will be auto-enumerated in
+reStructuredText and some markup languages.
+
+3. Item three period
+4. Item four period
+#. Item hash period, following number
 
 The delimiter ``*`` or ``.`` itself, each one or more, can
 make an unordered list or an ordered list in AsciiDoc.
