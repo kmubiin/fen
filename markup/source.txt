@@ -139,7 +139,7 @@ Inline text that uses underscore character has different
 interpretations: italic in Markdown and AsciiDoc; and
 reference, including hyperlink, in reStructuredText.
 
-\^super^script (AsciiDoc)
+\^super^script (AsciiDoc; else Markdown)
 
 ? ^super^script
 
