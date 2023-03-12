@@ -149,11 +149,7 @@ reference, including hyperlink, in reStructuredText.
 
 \#highlight text# and more\##highlight\#\# (AsciiDoc)
 
-? #highlight text# and more##highlight##
-
 \[.underline]\#text# and \[.line-through]\#text# (AsciiDoc)
-
-? [.underline]#text# and [.line-through]#text#
 
 Again, some unwanted results in AsciiDoc: some literal
 characters are shown together with the escape characters.
