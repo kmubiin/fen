@@ -26,11 +26,29 @@ Title text
 
 ATX heading: Title text uses prefix with/without matching
 pair, of ``#`` (Markdown, AsciiDoc) or ``=`` (AsciiDoc).
+Repeated markup characters, from one to six, correspond to
+respective title level and order.
+
+``#`` or ``=`` (heading 1 or document title)
+
+``##`` or ``==`` (heading 2 or first section)
+
+``###`` or ``===`` (heading 3)
+
+``####`` or ``====`` (heading 4)
+
+``#####`` or ``=====`` (heading 5)
+
+``######`` or ``======`` (heading 6)
 
 Setext heading: Title text uses underline with/without
-overline, of ``=`` and ``-`` (Markdown, reStructuredText),
-or any punctuation characters (reStructuredText), which
-corresponds to the title level and order.
+overline, of ``=`` and ``-``, and some punctuation
+characters. Different markup characters correspond to
+respective title level and order.
+
+``= - ` : ' " ~ ^ _ * + # < >`` (reStructuredText)
+
+``= - ~ ^ +`` (AsciiDoc; deprecated?)
 
 --------------------
 Simple text
