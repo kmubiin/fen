@@ -9,7 +9,7 @@ similar use cases. Subject to personal preference.
 for reference. This text file may preview differently,
 depending on which implementation of Markdown is being used.
 
-This file is shown by one of these symbolic links:
+Markup is indicated by any of these symbolic links:
 
 ? [Markdown](readme.md)
 from the [markup directory](..)
