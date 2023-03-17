@@ -5,9 +5,9 @@ A single text file to experiment markup languages.
 Markups are selective and chosen by either compatible or
 similar use cases. Subject to personal preference.
 
-**Discrepancy**: Markdown has no single "correct" rendering
-for reference. This text file may preview differently,
-depending on which implementation of Markdown is being used.
+CAUTION: This document is incomplete and subject to changes.
+The markup contents may preview differently, depending on
+which implementation was used.
 
 Markup is indicated by any of these symbolic links:
 
@@ -230,5 +230,3 @@ insert a checked character ``x`` between the brackets.
 - [x] Item checked by lowercase x (Markdown, AsciiDoc)
 - [*] Item checked by asterisk (AsciiDoc)
 - Item without square brackets
-
-[TESTING IN PROGRESS]
