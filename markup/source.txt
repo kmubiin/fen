@@ -230,3 +230,6 @@ insert a checked character ``x`` between the brackets.
 - [x] Item checked by lowercase x (Markdown, AsciiDoc)
 - [*] Item checked by asterisk (AsciiDoc)
 - Item without square brackets
+
+END OF DOCUMENT
+====================
