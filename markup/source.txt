@@ -75,9 +75,9 @@ respective title level and order.
 
 ``= - ~ ^ +`` (AsciiDoc; deprecated?)
 
-Here, some literal characters may be misplaced: the pairing
-of grave accent. This seems consistently wrong in AsciiDoc,
-but literal as is in Markdown and reStructuredText.
+NOTE: The pairing of grave accent may be misplaced or
+misinterpreted. This could happen when trying to convert the
+source text between different markup languages.
 
 --------------------
 Marker text
@@ -117,10 +117,9 @@ reStructuredText needs four or more; therefore, the fours
 
 ``****`` (reStructuredText; sidebar block in AsciiDoc)
 
-Again, some unwanted results in AsciiDoc: some literal
-characters are missing. Such repeated characters without
-any text in-between may appear missing in AsciiDoc, but
-appear literal as is, in Markdown and reStructuredText.
+NOTE: Some repeated characters without any text in-between
+may be missing. This could happen in AsciiDoc, otherwise
+literal as is in Markdown and reStructuredText.
 
 --------------------
 Inline text
@@ -173,8 +172,8 @@ reference, including hyperlink, in reStructuredText.
 
 \[.underline]\#text# and \[.line-through]\#text# (AsciiDoc)
 
-Again, some unwanted results in AsciiDoc: some literal
-characters are shown together with the escape characters.
+NOTE: Some literal characters may be shown together with
+the escape characters. Instead of a single backslash ``\``,
 AsciiDoc needs a double-backslash ``\\`` before the repeated
 characters, of every instances, to escape properly.
 
