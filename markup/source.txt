@@ -172,10 +172,14 @@ reference, including hyperlink, in reStructuredText.
 
 \[.underline]\#text# and \[.line-through]\#text# (AsciiDoc)
 
-NOTE: Some literal characters may be shown together with
-the escape characters. Instead of a single backslash ``\``,
-AsciiDoc needs a double-backslash ``\\`` before the repeated
-characters, of every instances, to escape properly.
+Escaping inline text may not work similarly. For example,
+this will not \*emphasis* (or not more\\**emphasis**) when
+escaped by a single ``\`` (or double ``\\``) backslash. The
+result will be different in some markup languages.
+
+NOTE: Repeated characters with single backslash each in this
+\*\*emphasis\*\* will escape properly in Markdown, and only
+a double backslash will escape properly in AsciiDoc.
 
 --------------------
 Itemize text
