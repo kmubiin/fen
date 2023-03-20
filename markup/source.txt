@@ -75,7 +75,7 @@ respective title level and order.
 
 ``= - ~ ^ +`` (AsciiDoc; deprecated?)
 
-NOTE: The pairing of grave accent may be misplaced or
+NOTE: The pairing of grave accent may be ignored or
 misinterpreted. This could happen when trying to convert the
 source text between different markup languages.
 
@@ -105,9 +105,8 @@ markup languages may allow or restrict other characters.
 ''''
 
 Either three or four characters are the minimum to draw
-the marker text. AsciiDoc needs three or more, whilst
-reStructuredText needs four or more; therefore, the fours
-``''''`` would be valid for both markups.
+the marker text. In above markups, the fours ``''''`` would
+be valid for both AsciiDoc and reStructuredText.
 
 ``___`` (Markdown)
 
@@ -156,9 +155,9 @@ disregard the character count.
 \_\_emphasis\_\_ and more\_\_emphasis\_\_ (Markdown;
 else AsciiDoc)
 
-Inline text that uses underscore character has different
-interpretations: italic in Markdown and AsciiDoc; and
-reference, including hyperlink, in reStructuredText.
+NOTE: Inline text that uses underscore character has
+different interpretations: italic in Markdown and AsciiDoc;
+and reference, including hyperlink, in reStructuredText.
 
 \^super^script (AsciiDoc; else Markdown)
 
