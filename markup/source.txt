@@ -234,5 +234,46 @@ insert a checked character ``x`` between the brackets.
 - [*] Item checked by asterisk (AsciiDoc)
 - Item without square brackets
 
+--------------------
+Block text
+--------------------
+
+A list of term with definition, in the simplest form, is
+made of a single line and followed by a paragraph indented
+by two spaces in the next line.
+
+term A
+  with definition in the next line (reStructuredText).
+
+term B
+  with definition in the next line
+  and continues in the following line.
+
+Otherwise, the single line is followed by a colon (or pair
+of colons) and a space characters at the end of same line,
+or at the beginning of paragraph in the next line.
+
+term C:: with definition in the same line (AsciiDoc).
+
+term D
+: with definition in the next line (Markdown).
+
+Some markup language may allow to include several terms or
+definitions next to each other, unlike the simplest form.
+
+term E::
+with definition in the next line (AsciiDoc).
+and additional definition in the following line.
+
+term F
+term G
+: with definition in the next line for (Markdown).
+
+term H
+: with definition in the next line (Markdown).
+: and another definition in the following line.
+
+**'Block text' may be continued**
+
 END OF DOCUMENT
 ====================
