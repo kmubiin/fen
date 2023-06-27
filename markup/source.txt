@@ -275,7 +275,26 @@ term H
 : with definition in the next line (Markdown).
 : and another definition in the following line.
 
-**'Block text' may be continued**
+A list of option with description (reStructuredText) is
+similar to term with definition in the simplest form.
+
+-h            a short option with one dash and a letter
+-i file       a short option with one dash and a word
+--input=file  a long option similarly
+              with long description in several lines
+-2, --two     an option with two variants
+/V            a DOS/VMS-style option
+
+Use at least two spaces between the option and description
+in the same line, and followed by more spaces and lines
+afterwards. Any option must be preceeded by a hyphen ``-``,
+a double-hyphen ``--``, or a slash ``/`` to be valid.
+
+NOTE: The option list seems exclusive to reStructuredText.
+Some markup tools may not implement the list and preview
+altogether in one paragraph instead.
+
+**To be continued**
 
 END OF DOCUMENT
 ====================
