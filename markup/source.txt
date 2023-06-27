@@ -3,11 +3,8 @@ markup/source.txt
 
 A single text file to experiment markup languages.
 Markups are selective and chosen by either compatible or
-similar use cases. Subject to personal preference.
-
-CAUTION: This document is incomplete and subject to changes.
-The markup contents may preview differently, depending on
-which implementation was used.
+similar use cases. Use any markup tools to preview the
+result, which may vary by implementation.
 
 Markup is indicated by any of these symbolic links:
 
@@ -19,6 +16,11 @@ from the `markup directory <..>`_
 
 ? link:readme.adoc[AsciiDoc]
 from the link:..[markup directory]
+
+CAUTION: This document was prepared for testing markups at
+convenience, by own initiative. Do not use as a reference.
+For full specifications and reference, check the official
+documentation for the markup languages.
 
 --------------------
 Simple text
