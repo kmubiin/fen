@@ -296,5 +296,7 @@ altogether in one paragraph instead.
 
 **To be continued**
 
+More block text (not shown here): the field list (reStructuredText; attributes in AsciiDoc) and question and answer list (AsciiDoc).
+
 END OF DOCUMENT
 ====================
