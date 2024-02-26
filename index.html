@@ -9,5 +9,13 @@
 </head>
 <body>
 <p id="intro">This is a static web page!</p>
+<details>
+<summary>Try Liquid code</summary>
+{% if u == 'http://localhost' %}
+<p>On localhost</p>
+{% else %}
+<p>Generated {% site.time %}</p>
+{% endif %}
+</details>
 </body>
 </html>
