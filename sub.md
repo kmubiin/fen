@@ -1,5 +1,7 @@
 ---
 published: true
+title: sub.md
+layout: manual
 ---
 
 Prepare a markdown file with front matter.
