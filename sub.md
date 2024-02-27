@@ -4,14 +4,11 @@ title: sub.md
 layout: manual
 ---
 
-Prepare a markdown file with front matter.
+Prepare a markdown file with front matter.  
+Then, try Liquid code at here instead:
 
-Try Liquid code at here instead:
-{% if site.title %}
-Title is <span class="code">{{ site.title }}</span>
-Theme is <span class="code">{{ site.theme }}</span>
-{% else %}
-Title not found
-{% endif %}
-
-Generated <span class="code">{{ site.time }}</span>
+Title is <span class="code">{% if site.theme %}
+{{ site.title }}{% else %}empty{% endif %}</span>.
+ 
+Theme is <span class="code">{% if site.theme %}
+{{ site.theme }}{% else %}empty{% endif %}</span>.
