@@ -1,2 +1,10 @@
 # Jekyll setup
 theme:  # empty theme, otherwise random pick on GH
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "manual"
+# apply the "default" or custom layout to all pages,
+# otherwise front matter layout: is required in each file

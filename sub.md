@@ -1,7 +1,6 @@
 ---
 published: true
 title: sub.md
-layout: manual
 ---
 
 Prepare a markdown file with front matter.  
@@ -12,3 +11,6 @@ Title is <span class="code">{% if site.theme %}
  
 Theme is <span class="code">{% if site.theme %}
 {{ site.theme }}{% else %}empty{% endif %}</span>.
+
+Layout is <span class="code">{% if page.layout %}
+{{ page.layout }}{% else %}empty{% endif %}</span>.
