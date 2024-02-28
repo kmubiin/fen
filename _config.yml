@@ -1,4 +1,6 @@
 # Jekyll setup
+url: https://kmubiin.github.io/fen
+permalink: /:title:output_ext
 theme:  # empty theme, otherwise random pick on GH
 defaults:
   -
