@@ -14,3 +14,5 @@ Theme is <span class="code">{% if site.theme %}
 
 Layout is <span class="code">{% if page.layout %}
 {{ page.layout }}{% else %}empty{% endif %}</span>.
+
+Test relative link: [Return to index](index.md)
