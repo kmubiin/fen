@@ -1,10 +1,8 @@
 # Jekyll setup
-url: https://kmubiin.github.io/fen
-permalink: /:title:output_ext
-plugins:
-  - jekyll-relative-links
-# try add plugin to convert links .md to .html
-# when deploying without theme
+#url: https://kmubiin.github.io/fen
+#permalink: /:title:output_ext
+#plugins:
+#  - jekyll-relative-links  # convert links .md to .html
 theme:  # empty theme, otherwise random pick on GH
 defaults:
   -

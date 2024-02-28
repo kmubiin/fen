@@ -1,6 +1,6 @@
 ---
 published: true
-title: sub.md
+title: main.md
 ---
 
 Theme is <span class="code">{% if site.theme %}
@@ -9,4 +9,6 @@ Theme is <span class="code">{% if site.theme %}
 Layout is <span class="code">{% if page.layout %}
 {{ page.layout }}{% else %}empty{% endif %}</span>.
 
-Test relative link: [Go to main](main.md)
+Test relative link: [Go to sub](sub.md)
+
+Test static link: [Go to index](index.html)
