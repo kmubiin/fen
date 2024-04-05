@@ -9,4 +9,6 @@ Theme is <span class="code">{% if site.theme %}
 Layout is <span class="code">{% if page.layout %}
 {{ page.layout }}{% else %}empty{% endif %}</span>.
 
-Test relative link: [Go to main](main.md)
+Test link:  
+[Go to main (relative)](main.md) (requires plugin)  
+[Go to main]({% link main.md %}) (requires Liquid tag)
