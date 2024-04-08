@@ -22,9 +22,18 @@ plugin outside localhost)
 Link made by link tag:  
 [index.html]({% link index.html %}) (need Jekyll 4.0+ without baseurl)  
 [{{ site.baseurl }}/index.html]({% link {{ site.baseurl }}/index.html %})  
-[{{ site.baseurl }}{{ page.path }}]({% link {{ site.baseurl }}{{ page.path }} %})
 
-Errors previously seen:
+Link made by link tag (raw code):  
 {% raw %}
-    Liquid Exception: Could not find document '{{ page.path }}' in tag 'link'. Make sure the document exists and the path is correct. in debug.md
+Build with success:  
+{% link index.html %}  
+{% link {{ site.baseurl }}/index.html %}
+
+Build with errors outside localhost:  
+{% link {{ page.path }} %}  
+{% link {{ site.baseurl }}{{ page.path }} %}
+
+    Liquid Exception: Could not find document
+    '{{ page.path }}' in tag 'link'. Make sure the document
+    exists and the path is correct. in debug.md
 {% endraw %}
