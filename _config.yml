@@ -1,5 +1,6 @@
 # Jekyll setup
-#url: https://kmubiin.github.io/fen
+#url: https://kmubiin.github.io
+#baseurl: /fen
 #permalink: /:title:output_ext
 #plugins:
 #  - jekyll-relative-links  # convert links .md to .html
