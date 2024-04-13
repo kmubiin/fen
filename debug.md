@@ -22,7 +22,12 @@ plugin outside localhost)
 Link made by link tag (need absolute path, it seems):  
 [index.html]({% link index.html %})  (Jekyll 4.0+)  
 [prefix baseurl to index.html]({{ site.baseurl }}{% link index.html %})  
-[prefix . to index.html](.{{ site.baseurl }}{% link index.html %})
+[prefix . to index.html](.{% link index.html %})
+
+Note:  
+The prefix `.` itself seems to include `baseurl` already,
+so no need to prefix both together;
+otherwise appears relative or indifferent on localhost.
 
 Link made by link tag (raw code):  
 {% raw %}
