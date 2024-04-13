@@ -20,27 +20,29 @@ Link made by page.url only:
 plugin outside localhost)
 
 Link made by link tag (need absolute path, it seems):  
-[index.html]({% link index.html %})
+[index.html]({% link index.html %})  (Jekyll 4.0+)  
+[prefix baseurl to index.html]({{ site.baseurl }}{% link index.html %})  
+[prefix . to index.html](.{{ site.baseurl }}{% link index.html %})
 
 Link made by link tag (raw code):  
 {% raw %}
 Build with success:  
-{% link index.html %}  
+{% link index.html %}  (Jekyll 4.0+)  
+{{ site.baseurl }}{% link index.html %}
 
-Build with errors outside localhost:  
+Build with errors:  
+{% link {{ site.baseurl }}/index.html %}  
+{% link {{ page.path }} %}  
+{% link {{ site.baseurl }}{{ page.path }} %}
 
-Supposedly need baseurl with Jekyll < 4.0, but errors?!
-
-{% link {{ site.baseurl }}/index.html %}
+    Liquid syntax error (line 41): Tag '{% ... %}' was not
+    properly terminated with regexp: /\\%\\}/
+    (Liquid::SyntaxError)
 
     Liquid Exception: Could not find document
     '{{ site.baseurl }}/index.html' in tag 'link'. Make sure
     the document exists and the path is correct. in debug.md
 
-{% link {{ page.path }} %}  
-{% link {{ site.baseurl }}{{ page.path }} %}
-
-    Liquid Exception: Could not find document
-    '{{ page.path }}' in tag 'link'. Make sure the document
-    exists and the path is correct. in debug.md
+Verdict:  
+`{% ... %}` can't be nested with `{{ ... }}`
 {% endraw %}
