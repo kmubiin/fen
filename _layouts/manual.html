@@ -5,11 +5,21 @@
 <title>{{ page.title }}</title>
 <meta charset='utf-8' />
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
-<link rel="stylesheet" href="index.css">
+<!--disabled stylesheet for this layout-->
+<!--link rel="stylesheet" href="index.css"-->
+<style>
+body { margin:10px; }
+#content { padding:10px; border:1px; border-style:dotted; }
+.code { padding:2px; background:#99ff66; }
+</style>
 </head>
 <body>
 <div id="content">
 {{ content }}
 </div>
+<p>Theme is <span class="code">{% if site.theme %}
+{{ site.theme }}{% else %}(empty){% endif %}</span>.</p>
+<p>Layout is <span class="code">{% if page.layout %}
+{{ page.layout }}{% else %}(empty){% endif %}</span>.</p>
 </body>
 </html>
