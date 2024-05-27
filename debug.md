@@ -3,6 +3,15 @@ published: true
 title: debug.md
 ---
 
+Predefined variables (from layout file themes):
+site.github.is_project_page: <span class="code">{{ site.github.is_project_page }}</span>  
+site.github.repository_name: <span class="code">{{ site.github.repository_name }}</span>  
+site.github.owner_url: <span class="code">{{ site.github.owner_url }}</span>  
+site.github.owner_name: <span class="code">{{ site.github.owner_name }}</span>  
+site.github.project_tagline: <span class="code">{{ site.github.project_tagline }}</span>  
+site.github.zip_url: <span class="code">{{ site.github.zip_url }}</span>  
+site.github.tar_url: <span class="code">{{ site.github.tar_url }}</span>  
+
 Defined variables are:  
 site.url: <span class="code">{{ site.url }}</span>  
 site.baseurl: <span class="code">{{ site.baseurl }}</span>  
