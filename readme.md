@@ -1,4 +1,4 @@
-# fen:static
+# fen:html
 another type of wetland
 
 This branch was created from the first commit to test
