@@ -20,6 +20,9 @@ another type of wetland
   minimum configurations to try GitHub Actions
 - [off directory](off) with readme was created as
   dependency to limit workflow without deletion
+- renaming from .yml to .txt could disable the workflow,
+  and keep the configuration file as plain text document,
+  likewise: [basic.txt](.github/workflows/basic.txt)
 
 ## Anything else
 
@@ -29,7 +32,6 @@ Basic requirements to work with the contents:
 - a web browser
 - any markup tool or browser extension (optional)
 
-**MUST KNOW**
 The "pretty" markup preview is a built-in feature of the
 web repository i.e. GitHub. Otherwise, run a self-hosted
 repository or use any markup editor to preview contents.
