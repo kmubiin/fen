@@ -1,3 +1,4 @@
+# basic.yml (rename as .txt to disable workflow)
 # This is a basic workflow to help you get started with Actions
 # from suggested template "CI" with a single job "build"
 # see: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
