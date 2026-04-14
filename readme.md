@@ -3,9 +3,8 @@ another type of wetland
 
 ## Now trying (impromptu)
 
-- markup/source.txt to test markup languages,
-  mainly [Markdown], [reStructuredText], and [AsciiDoc]
-  (symbolic links to the same source file)
+- [markup](markup) directory to test markup languages,
+  mainly Markdown, reStructuredText, and AsciiDoc
 
 [Markdown]: markup/md/readme.md
 [reStructuredText]: markup/rst/readme.rst
