@@ -3,6 +3,9 @@ another type of wetland
 
 ## Now trying (impromptu)
 
+- [citation was created with `.md`](citation.md) that
+  contains BibTeX citation generated from given URL online
+  (see how this may appear on GitHub?)
 - [markup/source.txt](markup) to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 
