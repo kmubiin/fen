@@ -3,10 +3,6 @@ another type of wetland
 
 ## Now trying (impromptu)
 
-- [citation was created with `.bib`](citation.bib) that
-  contains BibTeX citation generated from given URL online
-- citation file ending with `.md` will not show readily,
-  despite pasting BibTeX citation as is
 - [markup/source.txt](markup) to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 
@@ -20,6 +16,9 @@ another type of wetland
 
 ## Test and put aside
 
+- citation file ending with either `.md` or `.bib` will not
+  show citation readily to copy, unless following the
+  Citation File Format
 - .github/workflows/basic.yml was created by suggested
   minimum configurations to try GitHub Actions
 - [off directory](off) with readme was created as
