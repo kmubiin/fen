@@ -3,9 +3,10 @@ another type of wetland
 
 ## Now trying (impromptu)
 
-- [citation was created with `.md`](citation.md) that
+- [citation was created with `.bib`](citation.bib) that
   contains BibTeX citation generated from given URL online
-  (see how this may appear on GitHub?)
+- citation file ending with `.md` will not show readily,
+  despite pasting BibTeX citation as is
 - [markup/source.txt](markup) to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 
