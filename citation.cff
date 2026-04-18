@@ -1,5 +1,6 @@
 # minimal example of Citation File Format
 # with optional fields (repository, keywords)
+# with override to other than software (preferred-citation)
 authors:
   - name: "kmubiin"
 cff-version: "1.2.0"
@@ -8,3 +9,9 @@ title: "GitHub - kmubiin/fen: another type of wetland"
 repository: "https://github.com/kmubiin/fen"
 keywords:
 - experimental
+preferred-citation:
+  type: generic
+  title: "GitHub - kmubiin/fen: another type of wetland"
+  repository: "https://github.com/kmubiin/fen"
+  authors:
+  - name: "kmubiin"
