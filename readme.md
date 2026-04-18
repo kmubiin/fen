@@ -3,6 +3,9 @@ another type of wetland
 
 ## Now trying (impromptu)
 
+- citation file ending with `.cff`, naming as lowercase
+  despite schema insists on UPPERCASE naming (try first and
+  see result on GitHub)
 - [markup](markup) directory to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 

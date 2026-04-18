@@ -1,0 +1,10 @@
+# minimal example of Citation File Format
+# with optional fields (repository, keywords)
+authors:
+  - name: "kmubiin"
+cff-version: "1.2.0"
+message: "Try cite using these metadata."
+title: "GitHub - kmubiin/fen: another type of wetland"
+repository: "https://github.com/kmubiin/fen"
+keywords:
+- experimental
