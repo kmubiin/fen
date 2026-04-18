@@ -3,9 +3,6 @@ another type of wetland
 
 ## Now trying (impromptu)
 
-- citation file ending with `.cff`, naming as lowercase
-  despite schema insists on UPPERCASE naming (try first and
-  see result on GitHub)
 - [markup](markup) directory to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 
@@ -23,9 +20,14 @@ another type of wetland
 
 ## Test and put aside
 
+- citation file ending with `.cff`, naming as lowercase
+  worked fine, despite the Citation File Format (CFF) schema
+  requires UPPERCASE naming
+- with multiple citation files, the `.cff` file will be
+  found first and some options to copy citation will appear
+  before "view citation file", under "cite this repository"
 - citation file ending with either `.md` or `.bib` will not
-  show citation readily to copy, unless following the
-  Citation File Format
+  show more options, and will only have "view citation file"
 - .github/workflows/basic.yml was created by suggested
   minimum configurations to try GitHub Actions
 - [off directory](off) with readme was created as
