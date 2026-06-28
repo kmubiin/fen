@@ -3,6 +3,7 @@ another type of wetland
 
 ## Now trying (impromptu)
 
+- [l10n](l10n) directory to test language translation tools
 - [markup](markup) directory to test markup languages,
   mainly Markdown, reStructuredText, and AsciiDoc
 
