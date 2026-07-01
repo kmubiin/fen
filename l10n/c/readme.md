@@ -6,4 +6,4 @@ in any language at source and to be translated from.
 
 Set this directory `l10n/c` as "source path".
 
-Set target language as "C".
+Set target language as "English".
